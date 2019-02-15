@@ -1,8 +1,8 @@
 {
-  "name": "alink",
+  "name": "graphql-sandbox",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "yarn babel ./src --out-dir dist --presets @babel/preset-env,@babel/preset-react --ignore \"^.#*.js\"",
@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/preset-react": "^7.0.0",
-    "apollo-boost": "^0.1.28",
+    "apollo-cache-inmemory": "^1.4.3",
     "apollo-client": "^2.4.13",
     "apollo-link": "^1.2.8",
     "apollo-link-http": "^1.5.11",
